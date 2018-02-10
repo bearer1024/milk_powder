@@ -3,13 +3,9 @@ package jbr.springmvc.service;
 import jbr.springmvc.model.Login;
 import jbr.springmvc.model.User;
 
-public class UserService {
+public interface UserService {
 
-   public User validateUser(Login login){
-        User user = new User();
-    return user;
-    }
-   public void register(User user){
+    void register(User user);
 
-    }
+    User validateUser(Login login);
 }
