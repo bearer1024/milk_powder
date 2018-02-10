@@ -20,11 +20,11 @@
 
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
 
-        <property name="url" value="jdbc:mysql://localhost:3306/myusers" />
+        <property name="url" value="jdbc:mysql://47.52.164.35:3306/milk_powder" />
 
-        <property name="username" value="root" />
+        <property name="username" value="catty" />
 
-        <property name="password" value="root" />
+        <property name="password" value="helloCatty0.0" />
 
     </bean>
 
