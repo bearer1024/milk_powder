@@ -15,7 +15,7 @@
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <spring.version>4.3.2.RELEASE</spring.version>
+        <spring.version>4.1.9.RELEASE</spring.version>
 
         <junit.version>4.12</junit.version>
 
@@ -23,7 +23,7 @@
 
         <servlet.version>3.0.1</servlet.version>
 
-        <mysql.connector.version>5.1.9</mysql.connector.version>
+        <mysql.connector.version>5.1.35</mysql.connector.version>
 
     </properties>
 
