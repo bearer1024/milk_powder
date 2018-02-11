@@ -28,7 +28,7 @@ public class UserDaoImpl implements UserDao {
 
     JdbcTemplate jdbcTemplate;
 
-    @Override
+
     public void register(User user) {
 
         String sql = "insert into users values(?,?,?,?,?,?,?)";
@@ -39,7 +39,7 @@ public class UserDaoImpl implements UserDao {
 
     }
 
-    @Override
+
     public User validateUser(Login login) {
 
         String sql = "select * from users where username='" + login.getUsername() + "' and password='" + login.getPassword()
@@ -56,7 +56,7 @@ public class UserDaoImpl implements UserDao {
 
 class UserMapper implements org.springframework.jdbc.core.RowMapper<User> {
 
-    @Override
+
     public User mapRow(ResultSet rs, int arg1) throws SQLException {
 
         User user = new User();
